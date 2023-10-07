@@ -19,13 +19,19 @@ git clone https://github.com/andrejrakic/alchemy-example-go.git
 cd alchemy-example-go
 ```
 
-2. Build it
+2. Create new file and name it `.env`. Then put your Alchemy key in it as an `ALCHEMY_KEY` variable
+
+```
+ALCHEMY_KEY="your_key_goes_here"
+```
+
+3. Build it
 
 ```
 go build
 ```
 
-3. Run it
+4. Run it
 
 ```
 go run main.go
