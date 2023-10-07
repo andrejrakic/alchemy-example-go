@@ -34,7 +34,7 @@ go build
 4. Run it
 
 ```
-go run main.go
+go run .
 ```
 
 or
@@ -43,7 +43,7 @@ or
 ./alchemy-example-go
 ```
 
-### Related urls
+### Related URLs
 
 - https://appmaster.io/blog/go-modules-dependency-management
 - https://github.com/joho/godotenv
